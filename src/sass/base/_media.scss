@@ -1,0 +1,119 @@
+@media (max-width: 991px) {
+
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+       
+}
+
+@media (max-width: 767px) {
+    
+    .header {
+        .ds-visible {
+            display: none;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__official {
+            margin-top: 50px;
+        }
+    }
+    .mb-visible {
+        display: block;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 0px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__block {
+            margin-bottom: 40px;
+        }
+        &__block:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    
+    .header {
+        &__logo {
+            width: 125px;
+        }
+        &__official {
+            margin-top: 25px;
+            font-size: 11px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .promo {
+        padding-bottom: 40px;
+        &__wrapper {
+            margin-top: 40px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 35px;
+            width: 315px;
+        }
+        &__icon {
+            font-size: 12px;
+            img {
+                width: 30%;
+                margin-bottom: 10px;
+            }
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .button_main {
+        margin-top: 57px;
+    }
+    .advantages {
+        padding: 40px 0 48px 0;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__block {
+            margin-bottom: 20px;
+            img {
+                margin-bottom: 12px;
+            }
+            span {
+                margin-top: 18px;
+            }
+        }
+            
+    }
+    .h2 {
+        font-size: 24px;
+    }
+
+}
